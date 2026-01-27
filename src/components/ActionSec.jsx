@@ -18,7 +18,7 @@ function ActionSec() {
           with my own creation
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 lg:gap-0 mt-5 mb-5 w-full">
-          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg overflow-hidden cursor-pointer transition">
+          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg overflow-hidden  transition-transform duration-300 hover:scale-105 ">
             <div className="bg-black container mx-auto mt-5 h-40 w-56 overflow-hidden rounded-lg">
                 <img src={image} alt="" className="w-full h-full object-cover"/>
             </div>
@@ -30,7 +30,7 @@ function ActionSec() {
               </button>
             </div>
           </div>
-          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg cursor-pointer">
+          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg  transition-transform duration-300 hover:scale-105 ">
             <div className="bg-black container mx-auto mt-5 h-40 w-56 rounded-lg overflow-hidden">
                 <img src={image1} alt="" className="w-full h-full object-cover"/>
             </div>
@@ -42,7 +42,7 @@ function ActionSec() {
               </button>
             </div>
           </div>
-          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg cursor-pointer">
+          <div className="bg-[#bab7b2] h-72 w-72 rounded-lg transition-transform duration-300 hover:scale-105 ">
             <div className="bg-black container mx-auto mt-5 h-40 w-56 rounded-lg overflow-hidden">
                 <img src={image2} alt="" className="w-full h-full object-cover"/>
             </div>

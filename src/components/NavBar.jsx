@@ -1,6 +1,6 @@
 function NavBar() {
   return (
-    <div className=" sticky top-0  bg-[#bab7b2] py-6  ">
+    <div className=" sticky top-0  bg-[#bab7b2] py-6  z-50">
       <div className="   flex justify-around text-rose-900  font-semibold ">
         <div>
           <h1 className="text-2xl  lg:text-4xl cursor-pointer">Abdul Samad</h1>

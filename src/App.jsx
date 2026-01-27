@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Hero from './components/hero'
 import ActionSec from './components/ActionSec'
 import SkillSection from './components/SkillSection'
+import DevelopmentSec from './components/Development'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <ActionSec />
         <SkillSection />
+        <DevelopmentSec />
 
       </div>
     </>
