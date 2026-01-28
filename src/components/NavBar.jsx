@@ -14,7 +14,7 @@ function NavBar() {
         </div>
         <div>
           <button
-            className="py-2 px-3 lg:px-4 text-[#bab7b2] bg-rose-900 rounded-lg "
+            className="py-2 px-3 lg:px-4 text-[#bab7b2] bg-rose-900 hover:bg-rose-950 rounded-lg "
           >
             Keep in touch
           </button>
