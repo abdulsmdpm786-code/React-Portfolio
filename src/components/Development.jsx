@@ -12,7 +12,7 @@ function DevelopmentSec() {
               <img
                 src={pro1}
                 alt=""
-                className="w-full h-full object-cover object-left-top"
+                className="w-full h-full object-cover "
               />
             </div>
             <div className="py-2 w-full rounded-sm bg-[#bab7b2] absolute bottom-0">
