@@ -25,7 +25,7 @@ function ActionSec() {
             <div className="text-center">
               <h1 className="text-rose-900 font-bold mt-3">Web development</h1>
 
-              <button className="bg-rose-900 py-2 px-4 text-[#bab7b2] rounded-lg mt-6">
+              <button className="bg-rose-900 py-2 px-4 font-bold text-[#bab7b2] rounded-lg mt-6">
                 Click Me
               </button>
             </div>
@@ -37,7 +37,7 @@ function ActionSec() {
             <div className="text-center">
               <h1 className="text-rose-900 font-bold mt-3">Graphic design</h1>
 
-              <button className="bg-rose-900 py-2 px-4 text-[#bab7b2] rounded-lg mt-6">
+              <button className="bg-rose-900 py-2 px-4 font-bold text-[#bab7b2] rounded-lg mt-6">
                 Click Me
               </button>
             </div>
@@ -49,7 +49,7 @@ function ActionSec() {
             <div className="text-center">
               <h1 className="text-rose-900 font-bold mt-3">Photography</h1>
 
-              <button className="bg-rose-900 py-2 px-4 text-[#bab7b2] rounded-lg mt-6">
+              <button className="bg-rose-900 py-2 px-4 font-bold text-[#bab7b2] rounded-lg mt-6">
                 Click Me
               </button>
             </div>
