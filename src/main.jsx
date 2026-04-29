@@ -12,6 +12,7 @@ import ProjectSection from './components/ProjectSection.jsx'
 import CustomerSec from "./components/CustomerSec.jsx"
 import DetailsLoaders from "./Loaders/DetailsLoaders.jsx"
 import ContactRouter from "./components/ContactRouter.jsx"
+import Protect from './ProtuctRouter/protect.jsx'
 
 
 const router = createBrowserRouter([
@@ -21,7 +22,10 @@ const router = createBrowserRouter([
 
     children:[
       {index: true, element: <Home />},
-      {path: "Projects", element: <ProjectSection />},
+      {path: "Projects", element: 
+      <Protect> 
+      <ProjectSection />
+      </Protect>},
       {path: "Customer", element: <CustomerSec /> , loader: DetailsLoaders },
       {path: "Contact", element: <ContactRouter /> }
 
